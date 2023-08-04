@@ -1,0 +1,50 @@
+#logotipo {
+  width: 50px;
+}
+
+header {
+  background-color: #ffffff57;
+  font-family: "Courier New", Courier, monospace;
+}
+nav li {
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  display: inline;
+  margin: 3px;
+  padding: 3px;
+}
+
+li {
+  color: white;
+  font-size: 17px;
+  font-family: "Courier New", Courier, monospace;
+}
+nav {
+  float: right;
+}
+body {
+  background-color: #5e0505;
+}
+
+p {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #1f1414d2;
+}
+h2 {
+  text-align: center;
+  color: white;
+  background-color: #1f1414dc;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}

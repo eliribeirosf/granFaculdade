@@ -1,0 +1,75 @@
+<!--Nesta aula aprendi os conceitos básicos sobre estruturas condicionais somente no JS, porém, como forma de aprimoramento, resolvi fazer de uma forma mais "profissional" juntando o conhecimento junto com o HTML e CSS!-->
+<!DOCTYPE html>
+<html lang="pt=br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estruturas Condicionais</title>
+    <script src="js/if-else-script.js"></script>
+    <link rel="stylesheet" href="css/if-else-styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AULA 01 - MÓDULO 2</h1>
+    </header>
+    <main>
+      <p class="p1">
+        Nesta aula eu aprendi, apenas, os conceitos básicos sobre as 'Estruturas
+        Condicionais' em JS (exibidas no comando: console.log).
+      </p>
+      
+      <p class="p1">
+        Porém, como curioso, decidi elaborar o código (criando funções) e
+        deixando de uma forma mais visual para o cliente, em HTML, CSS e JS.
+      </p>
+      <p class="f1" id="func1">
+        Funcionalidade: use para calcular 4 notas e descobrir a média.
+      </p>
+      <p class="f1">
+        Menor que 5: Reprovado! / Entre 5 e menor que 6: Recuperação! / Maior ou igual a
+        7: Aprovado!
+      </p>
+      <form>
+        <input
+          class="form"
+          autofocus
+          type="text"
+          placeholder="Digite aqui a nota 1 "
+          id="n1"
+        />
+        <br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Digite aqui a nota 2 "
+          id="n2"
+        />
+        <br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Digite aqui a nota 3 "
+          id="n3"
+        />
+        <br />
+        <input
+          class="form"
+          type="text"
+          placeholder="Digite aqui a nota 4 "
+          id="n4"
+        />
+        <br />
+        <button class="btn" type="button" onclick="calculoMedia()">
+          Enviar
+        </button>
+        <input class="btn" type="reset" onclick="limparResultado()" />
+      </form>
+    </main>
+    <footer>
+      <p id="footer">© Todos os direitos reservados!</p>
+    </footer>
+
+    <p id="result"></p>
+    <p id="resultFinal"></p>
+  </body>
+</html>
